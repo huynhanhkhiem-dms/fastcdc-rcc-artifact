@@ -1,0 +1,37 @@
+name: Expand reproducibility artifact
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  expand:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Expand archived package
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f Supplementary_Material.zip
+          unzip -o Supplementary_Material.zip -d .
+          rm -f Supplementary_Material.zip
+          find . -type d -name '__pycache__' -prune -exec rm -rf {} +
+          find . -type f -name '*.pyc' -delete
+          rm -f .github/workflows/expand-artifact.yml
+
+      - name: Commit expanded artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Expand reproducibility package into repository"
+          git push
