@@ -1,0 +1,17 @@
+{
+  "word_bits": 64,
+  "search_seed": 271828,
+  "trial": 88,
+  "candidate_update_index_one_based": 27,
+  "reset_a_hex": "0x0000000000000000",
+  "reset_b_hex": "0x9e3779b97f4a7c15",
+  "state_a_hex": "0x74f886201c248d6a",
+  "state_b_hex": "0x40f2da00c4248d6a",
+  "mask_hex": "0x0003590703530000",
+  "decision_a_cut": true,
+  "decision_b_cut": false,
+  "candidate_bytes_hex": "889ce917f3f0e4e8ed11e902b36567774b56e31f83e19241983232",
+  "candidate_bytes_sha256": "398a0dcbe217ef97a097d3b5ec1cd074091db97eb8528f22f93df867961c46a1",
+  "convergence_bound_updates": 64,
+  "interpretation": "The reset-state difference can change a decision before the w-update convergence horizon. If both executions survive w common hash updates, their states are identical thereafter until the next reset."
+}

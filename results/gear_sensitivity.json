@@ -1,0 +1,3457 @@
+{
+  "design": {
+    "purpose": "Gear-table sensitivity on packaged Go 1.23.2 source files",
+    "n_files": 74,
+    "n_tables": 5,
+    "total_runs": 370,
+    "public_tables": [
+      "rust-gearhash DEFAULT_TABLE, commit d8fe811678f2f129fbccca647bac6f691ef8490f",
+      "wxiacode/FastCDC-c GEARv2, commit 7d661508aeef2d9be3c7fc6e4b94325ef90205c5"
+    ],
+    "sensitivity_seeds": [
+      20260925,
+      20260926,
+      20260927
+    ],
+    "note": "Two frozen public tables plus three deterministic probes; no deployment-prevalence claim."
+  },
+  "rows": [
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "archive/zip/reader.go",
+      "bytes": 28825,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.6074934952298352,
+      "migration_reuse": 0.3925065047701648
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "archive/zip/register.go",
+      "bytes": 3750,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "archive/zip/struct.go",
+      "bytes": 12393,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.29782941983377714,
+      "migration_reuse": 0.7021705801662229
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "archive/zip/writer.go",
+      "bytes": 19809,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "compress/flate/deflate.go",
+      "bytes": 20800,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "compress/flate/deflatefast.go",
+      "bytes": 9580,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "compress/flate/dict_decoder.go",
+      "bytes": 6150,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "compress/flate/huffman_bit_writer.go",
+      "bytes": 18824,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "compress/flate/huffman_code.go",
+      "bytes": 9911,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "compress/flate/inflate.go",
+      "bytes": 20878,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.5105853051058531,
+      "migration_reuse": 0.48941469489414696
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "compress/flate/token.go",
+      "bytes": 3680,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/alert.go",
+      "bytes": 4398,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/auth.go",
+      "bytes": 10224,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/boring.go",
+      "bytes": 393,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/cache.go",
+      "bytes": 3511,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/cipher_suites.go",
+      "bytes": 26149,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/common.go",
+      "bytes": 60569,
+      "boundary_jaccard": 0.8333333333333334,
+      "divergent_byte_fraction": 0.05960144628440291,
+      "migration_reuse": 0.9403985537155971
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/common_string.go",
+      "bytes": 3472,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/conn.go",
+      "bytes": 53074,
+      "boundary_jaccard": 0.8,
+      "divergent_byte_fraction": 0.14747333911142932,
+      "migration_reuse": 0.8525266608885707
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/defaults.go",
+      "bytes": 3965,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/ech.go",
+      "bytes": 7597,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/generate_cert.go",
+      "bytes": 4947,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/handshake_client.go",
+      "bytes": 39533,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.5631497736068601,
+      "migration_reuse": 0.4368502263931399
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/handshake_client_tls13.go",
+      "bytes": 28547,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.3376536939082916,
+      "migration_reuse": 0.6623463060917084
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/handshake_messages.go",
+      "bytes": 53049,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/handshake_server.go",
+      "bytes": 28276,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/handshake_server_tls13.go",
+      "bytes": 31291,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/key_agreement.go",
+      "bytes": 12131,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/key_schedule.go",
+      "bytes": 6618,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/notboring.go",
+      "bytes": 237,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/prf.go",
+      "bytes": 9451,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/quic.go",
+      "bytes": 15422,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/ticket.go",
+      "bytes": 12857,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "crypto/tls/tls.go",
+      "bytes": 12515,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "encoding/json/decode.go",
+      "bytes": 36112,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.48438192290651305,
+      "migration_reuse": 0.515618077093487
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "encoding/json/encode.go",
+      "bytes": 37130,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.46100188526797736,
+      "migration_reuse": 0.5389981147320226
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "encoding/json/fold.go",
+      "bytes": 1089,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "encoding/json/indent.go",
+      "bytes": 5490,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "encoding/json/scanner.go",
+      "bytes": 16524,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "encoding/json/stream.go",
+      "bytes": 13221,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "encoding/json/tables.go",
+      "bytes": 4260,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "encoding/json/tags.go",
+      "bytes": 972,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/client.go",
+      "bytes": 34507,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/clone.go",
+      "bytes": 3117,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/cookie.go",
+      "bytes": 14227,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.3578407253813172,
+      "migration_reuse": 0.6421592746186828
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/doc.go",
+      "bytes": 3502,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/filetransport.go",
+      "bytes": 3659,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/fs.go",
+      "bytes": 32895,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.4272989816081471,
+      "migration_reuse": 0.5727010183918528
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/h2_bundle.go",
+      "bytes": 372864,
+      "boundary_jaccard": 0.38596491228070173,
+      "divergent_byte_fraction": 0.5727316125986955,
+      "migration_reuse": 0.4272683874013045
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/h2_error.go",
+      "bytes": 812,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/header.go",
+      "bytes": 7832,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/http.go",
+      "bytes": 5250,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/jar.go",
+      "bytes": 900,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/mapping.go",
+      "bytes": 1719,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/method.go",
+      "bytes": 517,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/omithttp2.go",
+      "bytes": 1954,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/pattern.go",
+      "bytes": 15661,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.4638273418044825,
+      "migration_reuse": 0.5361726581955175
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/request.go",
+      "bytes": 50649,
+      "boundary_jaccard": 0.42857142857142855,
+      "divergent_byte_fraction": 0.43386838831961144,
+      "migration_reuse": 0.5661316116803885
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/response.go",
+      "bytes": 11362,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/responsecontroller.go",
+      "bytes": 4267,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/roundtrip.go",
+      "bytes": 988,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/roundtrip_js.go",
+      "bytes": 12084,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/routing_index.go",
+      "bytes": 4048,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/routing_tree.go",
+      "bytes": 7710,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/servemux121.go",
+      "bytes": 5920,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/server.go",
+      "bytes": 126479,
+      "boundary_jaccard": 0.20833333333333334,
+      "divergent_byte_fraction": 0.6650432087540225,
+      "migration_reuse": 0.3349567912459776
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/sniff.go",
+      "bytes": 8094,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/socks_bundle.go",
+      "bytes": 13212,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/status.go",
+      "bytes": 7629,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/transfer.go",
+      "bytes": 31838,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.43033482002638357,
+      "migration_reuse": 0.5696651799736164
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/transport.go",
+      "bytes": 93192,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.3740664434715426,
+      "migration_reuse": 0.6259335565284574
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/transport_default_other.go",
+      "bytes": 362,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/transport_default_wasm.go",
+      "bytes": 364,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "rust_gearhash",
+      "gear_table_kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "file": "net/http/triv.go",
+      "bytes": 3299,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "archive/zip/reader.go",
+      "bytes": 28825,
+      "boundary_jaccard": 0.2,
+      "divergent_byte_fraction": 0.8095056374674762,
+      "migration_reuse": 0.19049436253252386
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "archive/zip/register.go",
+      "bytes": 3750,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "archive/zip/struct.go",
+      "bytes": 12393,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "archive/zip/writer.go",
+      "bytes": 19809,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "compress/flate/deflate.go",
+      "bytes": 20800,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "compress/flate/deflatefast.go",
+      "bytes": 9580,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "compress/flate/dict_decoder.go",
+      "bytes": 6150,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "compress/flate/huffman_bit_writer.go",
+      "bytes": 18824,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "compress/flate/huffman_code.go",
+      "bytes": 9911,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "compress/flate/inflate.go",
+      "bytes": 20878,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "compress/flate/token.go",
+      "bytes": 3680,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/alert.go",
+      "bytes": 4398,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/auth.go",
+      "bytes": 10224,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/boring.go",
+      "bytes": 393,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/cache.go",
+      "bytes": 3511,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/cipher_suites.go",
+      "bytes": 26149,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/common.go",
+      "bytes": 60569,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.5732635506612294,
+      "migration_reuse": 0.42673644933877064
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/common_string.go",
+      "bytes": 3472,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/conn.go",
+      "bytes": 53074,
+      "boundary_jaccard": 0.2222222222222222,
+      "divergent_byte_fraction": 0.8324414967780834,
+      "migration_reuse": 0.16755850322191657
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/defaults.go",
+      "bytes": 3965,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/ech.go",
+      "bytes": 7597,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/generate_cert.go",
+      "bytes": 4947,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/handshake_client.go",
+      "bytes": 39533,
+      "boundary_jaccard": 0.75,
+      "divergent_byte_fraction": 0.3418409936002833,
+      "migration_reuse": 0.6581590063997167
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/handshake_client_tls13.go",
+      "bytes": 28547,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/handshake_messages.go",
+      "bytes": 53049,
+      "boundary_jaccard": 0.42857142857142855,
+      "divergent_byte_fraction": 0.5305849309129296,
+      "migration_reuse": 0.4694150690870704
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/handshake_server.go",
+      "bytes": 28276,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.5200169755269487,
+      "migration_reuse": 0.47998302447305136
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/handshake_server_tls13.go",
+      "bytes": 31291,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/key_agreement.go",
+      "bytes": 12131,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/key_schedule.go",
+      "bytes": 6618,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/notboring.go",
+      "bytes": 237,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/prf.go",
+      "bytes": 9451,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/quic.go",
+      "bytes": 15422,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/ticket.go",
+      "bytes": 12857,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "crypto/tls/tls.go",
+      "bytes": 12515,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "encoding/json/decode.go",
+      "bytes": 36112,
+      "boundary_jaccard": 0.4,
+      "divergent_byte_fraction": 0.6254153743907842,
+      "migration_reuse": 0.3745846256092158
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "encoding/json/encode.go",
+      "bytes": 37130,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.498007002423916,
+      "migration_reuse": 0.5019929975760841
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "encoding/json/fold.go",
+      "bytes": 1089,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "encoding/json/indent.go",
+      "bytes": 5490,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "encoding/json/scanner.go",
+      "bytes": 16524,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "encoding/json/stream.go",
+      "bytes": 13221,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.8413130625520006,
+      "migration_reuse": 0.1586869374479994
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "encoding/json/tables.go",
+      "bytes": 4260,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "encoding/json/tags.go",
+      "bytes": 972,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/client.go",
+      "bytes": 34507,
+      "boundary_jaccard": 0.4,
+      "divergent_byte_fraction": 0.45384994348972674,
+      "migration_reuse": 0.5461500565102733
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/clone.go",
+      "bytes": 3117,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/cookie.go",
+      "bytes": 14227,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/doc.go",
+      "bytes": 3502,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/filetransport.go",
+      "bytes": 3659,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/fs.go",
+      "bytes": 32895,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.5063687490500076,
+      "migration_reuse": 0.4936312509499924
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/h2_bundle.go",
+      "bytes": 372864,
+      "boundary_jaccard": 0.31666666666666665,
+      "divergent_byte_fraction": 0.6375675849639547,
+      "migration_reuse": 0.36243241503604534
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/h2_error.go",
+      "bytes": 812,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/header.go",
+      "bytes": 7832,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/http.go",
+      "bytes": 5250,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/jar.go",
+      "bytes": 900,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/mapping.go",
+      "bytes": 1719,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/method.go",
+      "bytes": 517,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/omithttp2.go",
+      "bytes": 1954,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/pattern.go",
+      "bytes": 15661,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/request.go",
+      "bytes": 50649,
+      "boundary_jaccard": 0.6,
+      "divergent_byte_fraction": 0.2881794309858043,
+      "migration_reuse": 0.7118205690141958
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/response.go",
+      "bytes": 11362,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/responsecontroller.go",
+      "bytes": 4267,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/roundtrip.go",
+      "bytes": 988,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/roundtrip_js.go",
+      "bytes": 12084,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/routing_index.go",
+      "bytes": 4048,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/routing_tree.go",
+      "bytes": 7710,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/servemux121.go",
+      "bytes": 5920,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/server.go",
+      "bytes": 126479,
+      "boundary_jaccard": 0.6428571428571429,
+      "divergent_byte_fraction": 0.2910601759975964,
+      "migration_reuse": 0.7089398240024035
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/sniff.go",
+      "bytes": 8094,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/socks_bundle.go",
+      "bytes": 13212,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/status.go",
+      "bytes": 7629,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/transfer.go",
+      "bytes": 31838,
+      "boundary_jaccard": 0.16666666666666666,
+      "divergent_byte_fraction": 0.6996984735222062,
+      "migration_reuse": 0.30030152647779385
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/transport.go",
+      "bytes": 93192,
+      "boundary_jaccard": 0.42857142857142855,
+      "divergent_byte_fraction": 0.5301957249549317,
+      "migration_reuse": 0.4698042750450682
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/transport_default_other.go",
+      "bytes": 362,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/transport_default_wasm.go",
+      "bytes": 364,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "wxi_fastcdc_c",
+      "gear_table_kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "file": "net/http/triv.go",
+      "bytes": 3299,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/reader.go",
+      "bytes": 28825,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.5654813529921943,
+      "migration_reuse": 0.43451864700780574
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/register.go",
+      "bytes": 3750,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/struct.go",
+      "bytes": 12393,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.9650609214879368,
+      "migration_reuse": 0.03493907851206326
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/writer.go",
+      "bytes": 19809,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/deflate.go",
+      "bytes": 20800,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/deflatefast.go",
+      "bytes": 9580,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/dict_decoder.go",
+      "bytes": 6150,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/huffman_bit_writer.go",
+      "bytes": 18824,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.4341266468338292,
+      "migration_reuse": 0.5658733531661708
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/huffman_code.go",
+      "bytes": 9911,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/inflate.go",
+      "bytes": 20878,
+      "boundary_jaccard": 0.25,
+      "divergent_byte_fraction": 0.9777277517003544,
+      "migration_reuse": 0.02227224829964556
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/token.go",
+      "bytes": 3680,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/alert.go",
+      "bytes": 4398,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/auth.go",
+      "bytes": 10224,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/boring.go",
+      "bytes": 393,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/cache.go",
+      "bytes": 3511,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/cipher_suites.go",
+      "bytes": 26149,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/common.go",
+      "bytes": 60569,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/common_string.go",
+      "bytes": 3472,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/conn.go",
+      "bytes": 53074,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/defaults.go",
+      "bytes": 3965,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/ech.go",
+      "bytes": 7597,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/generate_cert.go",
+      "bytes": 4947,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_client.go",
+      "bytes": 39533,
+      "boundary_jaccard": 0.6,
+      "divergent_byte_fraction": 0.48185060582298334,
+      "migration_reuse": 0.5181493941770167
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_client_tls13.go",
+      "bytes": 28547,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.45780642449294146,
+      "migration_reuse": 0.5421935755070585
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_messages.go",
+      "bytes": 53049,
+      "boundary_jaccard": 0.2222222222222222,
+      "divergent_byte_fraction": 0.6245546570152124,
+      "migration_reuse": 0.37544534298478766
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_server.go",
+      "bytes": 28276,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_server_tls13.go",
+      "bytes": 31291,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/key_agreement.go",
+      "bytes": 12131,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/key_schedule.go",
+      "bytes": 6618,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/notboring.go",
+      "bytes": 237,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/prf.go",
+      "bytes": 9451,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/quic.go",
+      "bytes": 15422,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/ticket.go",
+      "bytes": 12857,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/tls.go",
+      "bytes": 12515,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/decode.go",
+      "bytes": 36112,
+      "boundary_jaccard": 0.4,
+      "divergent_byte_fraction": 0.624695392113425,
+      "migration_reuse": 0.3753046078865751
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/encode.go",
+      "bytes": 37130,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/fold.go",
+      "bytes": 1089,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/indent.go",
+      "bytes": 5490,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/scanner.go",
+      "bytes": 16524,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/stream.go",
+      "bytes": 13221,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/tables.go",
+      "bytes": 4260,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/tags.go",
+      "bytes": 972,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/client.go",
+      "bytes": 34507,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.3523343089807865,
+      "migration_reuse": 0.6476656910192135
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/clone.go",
+      "bytes": 3117,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/cookie.go",
+      "bytes": 14227,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/doc.go",
+      "bytes": 3502,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/filetransport.go",
+      "bytes": 3659,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/fs.go",
+      "bytes": 32895,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/h2_bundle.go",
+      "bytes": 372864,
+      "boundary_jaccard": 0.31666666666666665,
+      "divergent_byte_fraction": 0.6747366331960178,
+      "migration_reuse": 0.32526336680398216
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/h2_error.go",
+      "bytes": 812,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/header.go",
+      "bytes": 7832,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/http.go",
+      "bytes": 5250,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/jar.go",
+      "bytes": 900,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/mapping.go",
+      "bytes": 1719,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/method.go",
+      "bytes": 517,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/omithttp2.go",
+      "bytes": 1954,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/pattern.go",
+      "bytes": 15661,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.2564331779579848,
+      "migration_reuse": 0.7435668220420152
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/request.go",
+      "bytes": 50649,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/response.go",
+      "bytes": 11362,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/responsecontroller.go",
+      "bytes": 4267,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/roundtrip.go",
+      "bytes": 988,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/roundtrip_js.go",
+      "bytes": 12084,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.8773584905660378,
+      "migration_reuse": 0.12264150943396226
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/routing_index.go",
+      "bytes": 4048,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/routing_tree.go",
+      "bytes": 7710,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/servemux121.go",
+      "bytes": 5920,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/server.go",
+      "bytes": 126479,
+      "boundary_jaccard": 0.2857142857142857,
+      "divergent_byte_fraction": 0.7309909154879466,
+      "migration_reuse": 0.2690090845120534
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/sniff.go",
+      "bytes": 8094,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/socks_bundle.go",
+      "bytes": 13212,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.3542991220102937,
+      "migration_reuse": 0.6457008779897063
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/status.go",
+      "bytes": 7629,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transfer.go",
+      "bytes": 31838,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport.go",
+      "bytes": 93192,
+      "boundary_jaccard": 0.5833333333333334,
+      "divergent_byte_fraction": 0.4921023263799468,
+      "migration_reuse": 0.5078976736200532
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport_default_other.go",
+      "bytes": 362,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport_default_wasm.go",
+      "bytes": 364,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260925",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/triv.go",
+      "bytes": 3299,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/reader.go",
+      "bytes": 28825,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/register.go",
+      "bytes": 3750,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/struct.go",
+      "bytes": 12393,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/writer.go",
+      "bytes": 19809,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/deflate.go",
+      "bytes": 20800,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/deflatefast.go",
+      "bytes": 9580,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/dict_decoder.go",
+      "bytes": 6150,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/huffman_bit_writer.go",
+      "bytes": 18824,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.42398002549936253,
+      "migration_reuse": 0.5760199745006375
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/huffman_code.go",
+      "bytes": 9911,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/inflate.go",
+      "bytes": 20878,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/token.go",
+      "bytes": 3680,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/alert.go",
+      "bytes": 4398,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/auth.go",
+      "bytes": 10224,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/boring.go",
+      "bytes": 393,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/cache.go",
+      "bytes": 3511,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/cipher_suites.go",
+      "bytes": 26149,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/common.go",
+      "bytes": 60569,
+      "boundary_jaccard": 0.4,
+      "divergent_byte_fraction": 0.46835840116231076,
+      "migration_reuse": 0.5316415988376892
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/common_string.go",
+      "bytes": 3472,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/conn.go",
+      "bytes": 53074,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/defaults.go",
+      "bytes": 3965,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/ech.go",
+      "bytes": 7597,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/generate_cert.go",
+      "bytes": 4947,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_client.go",
+      "bytes": 39533,
+      "boundary_jaccard": 0.6,
+      "divergent_byte_fraction": 0.3404244555181747,
+      "migration_reuse": 0.6595755444818253
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_client_tls13.go",
+      "bytes": 28547,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.5606893894279609,
+      "migration_reuse": 0.4393106105720391
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_messages.go",
+      "bytes": 53049,
+      "boundary_jaccard": 0.1111111111111111,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_server.go",
+      "bytes": 28276,
+      "boundary_jaccard": 0.2,
+      "divergent_byte_fraction": 0.7013014570660631,
+      "migration_reuse": 0.2986985429339369
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_server_tls13.go",
+      "bytes": 31291,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.2855773225528107,
+      "migration_reuse": 0.7144226774471892
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/key_agreement.go",
+      "bytes": 12131,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/key_schedule.go",
+      "bytes": 6618,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/notboring.go",
+      "bytes": 237,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/prf.go",
+      "bytes": 9451,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/quic.go",
+      "bytes": 15422,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/ticket.go",
+      "bytes": 12857,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/tls.go",
+      "bytes": 12515,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/decode.go",
+      "bytes": 36112,
+      "boundary_jaccard": 0.14285714285714285,
+      "divergent_byte_fraction": 0.7336342490031015,
+      "migration_reuse": 0.2663657509968985
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/encode.go",
+      "bytes": 37130,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/fold.go",
+      "bytes": 1089,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/indent.go",
+      "bytes": 5490,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/scanner.go",
+      "bytes": 16524,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/stream.go",
+      "bytes": 13221,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/tables.go",
+      "bytes": 4260,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/tags.go",
+      "bytes": 972,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/client.go",
+      "bytes": 34507,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/clone.go",
+      "bytes": 3117,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/cookie.go",
+      "bytes": 14227,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/doc.go",
+      "bytes": 3502,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/filetransport.go",
+      "bytes": 3659,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/fs.go",
+      "bytes": 32895,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.27247302021583825,
+      "migration_reuse": 0.7275269797841617
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/h2_bundle.go",
+      "bytes": 372864,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.4034956445245451,
+      "migration_reuse": 0.5965043554754549
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/h2_error.go",
+      "bytes": 812,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/header.go",
+      "bytes": 7832,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/http.go",
+      "bytes": 5250,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/jar.go",
+      "bytes": 900,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/mapping.go",
+      "bytes": 1719,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/method.go",
+      "bytes": 517,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/omithttp2.go",
+      "bytes": 1954,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/pattern.go",
+      "bytes": 15661,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/request.go",
+      "bytes": 50649,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/response.go",
+      "bytes": 11362,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/responsecontroller.go",
+      "bytes": 4267,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/roundtrip.go",
+      "bytes": 988,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/roundtrip_js.go",
+      "bytes": 12084,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/routing_index.go",
+      "bytes": 4048,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/routing_tree.go",
+      "bytes": 7710,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/servemux121.go",
+      "bytes": 5920,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/server.go",
+      "bytes": 126479,
+      "boundary_jaccard": 0.3684210526315789,
+      "divergent_byte_fraction": 0.6129238845974431,
+      "migration_reuse": 0.38707611540255693
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/sniff.go",
+      "bytes": 8094,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/socks_bundle.go",
+      "bytes": 13212,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/status.go",
+      "bytes": 7629,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transfer.go",
+      "bytes": 31838,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.38353539795213265,
+      "migration_reuse": 0.6164646020478673
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport.go",
+      "bytes": 93192,
+      "boundary_jaccard": 0.3076923076923077,
+      "divergent_byte_fraction": 0.711691990728818,
+      "migration_reuse": 0.28830800927118205
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport_default_other.go",
+      "bytes": 362,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport_default_wasm.go",
+      "bytes": 364,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260926",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/triv.go",
+      "bytes": 3299,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/reader.go",
+      "bytes": 28825,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.236357328707719,
+      "migration_reuse": 0.763642671292281
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/register.go",
+      "bytes": 3750,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/struct.go",
+      "bytes": 12393,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "archive/zip/writer.go",
+      "bytes": 19809,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.5731233277803018,
+      "migration_reuse": 0.4268766722196981
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/deflate.go",
+      "bytes": 20800,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/deflatefast.go",
+      "bytes": 9580,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/dict_decoder.go",
+      "bytes": 6150,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/huffman_bit_writer.go",
+      "bytes": 18824,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.5634296642583936,
+      "migration_reuse": 0.4365703357416065
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/huffman_code.go",
+      "bytes": 9911,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/inflate.go",
+      "bytes": 20878,
+      "boundary_jaccard": 0.2,
+      "divergent_byte_fraction": 0.91622760800843,
+      "migration_reuse": 0.08377239199157008
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "compress/flate/token.go",
+      "bytes": 3680,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/alert.go",
+      "bytes": 4398,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/auth.go",
+      "bytes": 10224,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/boring.go",
+      "bytes": 393,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/cache.go",
+      "bytes": 3511,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/cipher_suites.go",
+      "bytes": 26149,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/common.go",
+      "bytes": 60569,
+      "boundary_jaccard": 0.3,
+      "divergent_byte_fraction": 0.7191302481467418,
+      "migration_reuse": 0.28086975185325824
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/common_string.go",
+      "bytes": 3472,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/conn.go",
+      "bytes": 53074,
+      "boundary_jaccard": 0.375,
+      "divergent_byte_fraction": 0.6751328334024193,
+      "migration_reuse": 0.32486716659758075
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/defaults.go",
+      "bytes": 3965,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/ech.go",
+      "bytes": 7597,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/generate_cert.go",
+      "bytes": 4947,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_client.go",
+      "bytes": 39533,
+      "boundary_jaccard": 0.16666666666666666,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_client_tls13.go",
+      "bytes": 28547,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.2578204364731846,
+      "migration_reuse": 0.7421795635268155
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_messages.go",
+      "bytes": 53049,
+      "boundary_jaccard": 0.42857142857142855,
+      "divergent_byte_fraction": 0.4788403174423646,
+      "migration_reuse": 0.5211596825576353
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_server.go",
+      "bytes": 28276,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/handshake_server_tls13.go",
+      "bytes": 31291,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.7141989709501134,
+      "migration_reuse": 0.2858010290498865
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/key_agreement.go",
+      "bytes": 12131,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/key_schedule.go",
+      "bytes": 6618,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/notboring.go",
+      "bytes": 237,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/prf.go",
+      "bytes": 9451,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/quic.go",
+      "bytes": 15422,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/ticket.go",
+      "bytes": 12857,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "crypto/tls/tls.go",
+      "bytes": 12515,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/decode.go",
+      "bytes": 36112,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/encode.go",
+      "bytes": 37130,
+      "boundary_jaccard": 0.2,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/fold.go",
+      "bytes": 1089,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/indent.go",
+      "bytes": 5490,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/scanner.go",
+      "bytes": 16524,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.46308399903171144,
+      "migration_reuse": 0.5369160009682885
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/stream.go",
+      "bytes": 13221,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/tables.go",
+      "bytes": 4260,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "encoding/json/tags.go",
+      "bytes": 972,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/client.go",
+      "bytes": 34507,
+      "boundary_jaccard": 0.4,
+      "divergent_byte_fraction": 0.7114208711275973,
+      "migration_reuse": 0.2885791288724027
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/clone.go",
+      "bytes": 3117,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/cookie.go",
+      "bytes": 14227,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/doc.go",
+      "bytes": 3502,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/filetransport.go",
+      "bytes": 3659,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/fs.go",
+      "bytes": 32895,
+      "boundary_jaccard": 0.16666666666666666,
+      "divergent_byte_fraction": 0.8002127982976136,
+      "migration_reuse": 0.19978720170238637
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/h2_bundle.go",
+      "bytes": 372864,
+      "boundary_jaccard": 0.5918367346938775,
+      "divergent_byte_fraction": 0.3395822605561277,
+      "migration_reuse": 0.6604177394438723
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/h2_error.go",
+      "bytes": 812,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/header.go",
+      "bytes": 7832,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/http.go",
+      "bytes": 5250,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/jar.go",
+      "bytes": 900,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/mapping.go",
+      "bytes": 1719,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/method.go",
+      "bytes": 517,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/omithttp2.go",
+      "bytes": 1954,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/pattern.go",
+      "bytes": 15661,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/request.go",
+      "bytes": 50649,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/response.go",
+      "bytes": 11362,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/responsecontroller.go",
+      "bytes": 4267,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/roundtrip.go",
+      "bytes": 988,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/roundtrip_js.go",
+      "bytes": 12084,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/routing_index.go",
+      "bytes": 4048,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/routing_tree.go",
+      "bytes": 7710,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/servemux121.go",
+      "bytes": 5920,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/server.go",
+      "bytes": 126479,
+      "boundary_jaccard": 0.18181818181818182,
+      "divergent_byte_fraction": 0.8423690889396659,
+      "migration_reuse": 0.15763091106033414
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/sniff.go",
+      "bytes": 8094,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/socks_bundle.go",
+      "bytes": 13212,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "migration_reuse": 0.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/status.go",
+      "bytes": 7629,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transfer.go",
+      "bytes": 31838,
+      "boundary_jaccard": 0.25,
+      "divergent_byte_fraction": 0.5778629310886362,
+      "migration_reuse": 0.42213706891136377
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport.go",
+      "bytes": 93192,
+      "boundary_jaccard": 0.25,
+      "divergent_byte_fraction": 0.6125633101553781,
+      "migration_reuse": 0.3874366898446219
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport_default_other.go",
+      "bytes": 362,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/transport_default_wasm.go",
+      "bytes": 364,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    },
+    {
+      "gear_table": "seed_20260927",
+      "gear_table_kind": "deterministic sensitivity table",
+      "file": "net/http/triv.go",
+      "bytes": 3299,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "migration_reuse": 1.0
+    }
+  ],
+  "by_table": {
+    "rust_gearhash": {
+      "kind": "Frozen rust-gearhash DEFAULT_TABLE",
+      "n_runs": 74,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.0,
+        1.0
+      ],
+      "divergent_byte_fraction_median": 0.0,
+      "divergent_byte_fraction_range": [
+        0.0,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.0,
+        1.0
+      ]
+    },
+    "wxi_fastcdc_c": {
+      "kind": "Frozen wxiacode/FastCDC-c GEARv2 table",
+      "n_runs": 74,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.0,
+        1.0
+      ],
+      "divergent_byte_fraction_median": 0.0,
+      "divergent_byte_fraction_range": [
+        0.0,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.0,
+        1.0
+      ]
+    },
+    "seed_20260925": {
+      "kind": "deterministic sensitivity table",
+      "n_runs": 74,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.0,
+        1.0
+      ],
+      "divergent_byte_fraction_median": 0.0,
+      "divergent_byte_fraction_range": [
+        0.0,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.0,
+        1.0
+      ]
+    },
+    "seed_20260926": {
+      "kind": "deterministic sensitivity table",
+      "n_runs": 74,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.0,
+        1.0
+      ],
+      "divergent_byte_fraction_median": 0.0,
+      "divergent_byte_fraction_range": [
+        0.0,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.0,
+        1.0
+      ]
+    },
+    "seed_20260927": {
+      "kind": "deterministic sensitivity table",
+      "n_runs": 74,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.0,
+        1.0
+      ],
+      "divergent_byte_fraction_median": 0.0,
+      "divergent_byte_fraction_range": [
+        0.0,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "summary": {
+    "global_boundary_jaccard_range": [
+      0.0,
+      1.0
+    ],
+    "global_migration_reuse_range": [
+      0.0,
+      1.0
+    ]
+  }
+}

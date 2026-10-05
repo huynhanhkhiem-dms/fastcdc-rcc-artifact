@@ -1,0 +1,19 @@
+{
+  "workload": "uniform",
+  "replicate_one_based": 1,
+  "shared_reset_offset": 18528,
+  "candidate_byte_offset_zero_based": 22278,
+  "candidate_boundary_end_exclusive": 22278,
+  "returned_chunk_length_bytes": 3750,
+  "tested_hash_updates_one_based": 1703,
+  "state_hex": "0x35d8a0b88480ebe0",
+  "mask_2016_hex": "0x0003590703530000",
+  "mask_2020_hex": "0x0000d9f003530000",
+  "decision_2016_cut": true,
+  "decision_2020_cut": false,
+  "decision_prefix_including_candidate_sha256": "2b8b0b1210008b2b1e17b829df888a8a0667e4f999074af7034eb568bc362e52",
+  "scanned_candidate_bytes_sha256": "5f66ea2892c5b511aac9c0b5e38027762d61d444e24e51f9c7ed4caa1cdefac0",
+  "candidate_byte_decimal": 217,
+  "boundary_convention": "hash src[i], test, return relative i; absolute end-exclusive boundary=start+i; tested src[i] belongs to the following chunk",
+  "interpretation": "Both rules share the reset at shared_reset_offset and survive every earlier candidate. The recorded common state is therefore jointly live-reachable; the two printed pre-target masks make different decisions at this candidate."
+}

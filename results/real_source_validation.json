@@ -1,0 +1,1362 @@
+{
+  "corpus": {
+    "name": "Go 1.23.2 standard-library non-test source files from five fixed packages: archive/zip, compress/flate, crypto/tls, encoding/json, net/http",
+    "purpose": "non-synthetic offline validation; not a population sample",
+    "license_file": "corpus/go1232_stdlib/LICENSE_GO.txt",
+    "version_file": "corpus/go1232_stdlib/GO_VERSION.txt",
+    "files": [
+      {
+        "file": "archive/zip/reader.go",
+        "bytes": 28825,
+        "sha256": "54e6a8beb87b31f3a617ad5851fb7b31dc96aea1923cf8ba0e681818f2587a09"
+      },
+      {
+        "file": "archive/zip/register.go",
+        "bytes": 3750,
+        "sha256": "79c2b8c310f04ee33c86e8c7399fd73c3d2b6d81a7c6a711a6a740654ac3ff98"
+      },
+      {
+        "file": "archive/zip/struct.go",
+        "bytes": 12393,
+        "sha256": "0245d82aa77e2b9dde3ae1c75edab06f9153f801e0742dac0617f24c33d5609b"
+      },
+      {
+        "file": "archive/zip/writer.go",
+        "bytes": 19809,
+        "sha256": "94503f2dbbd79693950f3d6bd5ac0edcc955e63ae4b98dd170c42dabfc017702"
+      },
+      {
+        "file": "compress/flate/deflate.go",
+        "bytes": 20800,
+        "sha256": "63531314b931ecc409321566ebe87c20ecd3a1c6f3c101dab0c2622acf92d362"
+      },
+      {
+        "file": "compress/flate/deflatefast.go",
+        "bytes": 9580,
+        "sha256": "61740d7f30b157947e3b8984cc5cf4c2aaff5e087ccf906886d77a1a351cf483"
+      },
+      {
+        "file": "compress/flate/dict_decoder.go",
+        "bytes": 6150,
+        "sha256": "26ce1ac6f0a735d8e7fffab3f1052d2e2c6929e9fe740ce7c514a7f46552b28a"
+      },
+      {
+        "file": "compress/flate/huffman_bit_writer.go",
+        "bytes": 18824,
+        "sha256": "285f8541f26bf1982e0d5ed09ab7f7db0864b50ba93ba2cbe4562c5772743963"
+      },
+      {
+        "file": "compress/flate/huffman_code.go",
+        "bytes": 9911,
+        "sha256": "c7fe4f18bb12c30631c91506e458ee3b0056449806fa5de46e3c0bfe8a486197"
+      },
+      {
+        "file": "compress/flate/inflate.go",
+        "bytes": 20878,
+        "sha256": "350a4d629213522544fca9e61c7aa155fdaad179285cba16ca1043b52400ed1d"
+      },
+      {
+        "file": "compress/flate/token.go",
+        "bytes": 3680,
+        "sha256": "bc96536b4ca6e946a5094c3c60a085485cf6e25be1fc74914bdefcf4352f1516"
+      },
+      {
+        "file": "crypto/tls/alert.go",
+        "bytes": 4398,
+        "sha256": "95b0aab666e8a08a2c56191e0ed96a804be83b4e2d7475d4d1e7c4eb9f8b6b6c"
+      },
+      {
+        "file": "crypto/tls/auth.go",
+        "bytes": 10224,
+        "sha256": "49d2191f0677a28941ac5def5b1f139087f79f69ed1b11cca54cf40e0b443d3b"
+      },
+      {
+        "file": "crypto/tls/boring.go",
+        "bytes": 393,
+        "sha256": "cd986e2d0823bdd7824ec9229351fa9b08b0102aef5f543edaa3d984af87f48f"
+      },
+      {
+        "file": "crypto/tls/cache.go",
+        "bytes": 3511,
+        "sha256": "3a9502ab6ed2c77b57a2408990dc64c47f1e0527657ef46d0abe530a8e75f52f"
+      },
+      {
+        "file": "crypto/tls/cipher_suites.go",
+        "bytes": 26149,
+        "sha256": "51b8d01a7f2794bcb1f9158415ef93974a7700bb6d8641733ae798c2c5784625"
+      },
+      {
+        "file": "crypto/tls/common.go",
+        "bytes": 60569,
+        "sha256": "8d6b3664ccd4c419d1c6d19863155c936d823263f6e7c6f17f5e6c2e9752bb1a"
+      },
+      {
+        "file": "crypto/tls/common_string.go",
+        "bytes": 3472,
+        "sha256": "8862ddba3892834d9f96a06cd6f7b23d3934aab5bc22df1bdf30efb5ec43c0dc"
+      },
+      {
+        "file": "crypto/tls/conn.go",
+        "bytes": 53074,
+        "sha256": "4ddefabb4e18d29bd8d31418dab55706dba736adcb203dc6360c90f9b861f729"
+      },
+      {
+        "file": "crypto/tls/defaults.go",
+        "bytes": 3965,
+        "sha256": "2b96af5e2e2f83ade579df5d8c57e2a06e3abc14f3fefd4ed4ed3f00b5a8379c"
+      },
+      {
+        "file": "crypto/tls/ech.go",
+        "bytes": 7597,
+        "sha256": "ed85222711e1b5cb0c3b5f03a09d5cc0d6d3739dbe71a4f2c8263eb8675e6b8f"
+      },
+      {
+        "file": "crypto/tls/generate_cert.go",
+        "bytes": 4947,
+        "sha256": "c4eca7cd7a7e96de36adfbdf58d62aefade21e28e0334d0610a8c22517957dc4"
+      },
+      {
+        "file": "crypto/tls/handshake_client.go",
+        "bytes": 39533,
+        "sha256": "5dead4fc051389fedd079dfce29a7b172390ba06dd5d714a5260876b40ac8582"
+      },
+      {
+        "file": "crypto/tls/handshake_client_tls13.go",
+        "bytes": 28547,
+        "sha256": "285b22a615ad7273aa9cfb372cbb72f242996808156c343fb5c1a83975d47fe8"
+      },
+      {
+        "file": "crypto/tls/handshake_messages.go",
+        "bytes": 53049,
+        "sha256": "ba0da6e253729d53330ecbc0a3f8c54c37eba5f69ac8ab1608d59c5ae7b4011c"
+      },
+      {
+        "file": "crypto/tls/handshake_server.go",
+        "bytes": 28276,
+        "sha256": "fa335cf6089d8bf98470511b22b38a019668af4dedea4e5ff13d107b87afb969"
+      },
+      {
+        "file": "crypto/tls/handshake_server_tls13.go",
+        "bytes": 31291,
+        "sha256": "5093f79ace8688bc050c82fe46a3cc226f2a25b8a00f5dfbc308677473c518c4"
+      },
+      {
+        "file": "crypto/tls/key_agreement.go",
+        "bytes": 12131,
+        "sha256": "db368fa743f1842bda6b5f3e2ec7ce0dab4270aabaf3215af4b30dd397670783"
+      },
+      {
+        "file": "crypto/tls/key_schedule.go",
+        "bytes": 6618,
+        "sha256": "f4fb53b1378d00297df593215125e8dc16163e96ca8e39447fb6c07506d936cb"
+      },
+      {
+        "file": "crypto/tls/notboring.go",
+        "bytes": 237,
+        "sha256": "976c93b45d770fc99f37c599bec5729370ec037ff87493f2844c366c55c237b5"
+      },
+      {
+        "file": "crypto/tls/prf.go",
+        "bytes": 9451,
+        "sha256": "84edb6dc1201ea2f2260c0b35dbbec374209c845525d1ae13ecb9b1ed5c3ff35"
+      },
+      {
+        "file": "crypto/tls/quic.go",
+        "bytes": 15422,
+        "sha256": "55f74139cc2fd4f24a1d7031bb6a66ec2e2ac1948b29faaec945c3e81d79d372"
+      },
+      {
+        "file": "crypto/tls/ticket.go",
+        "bytes": 12857,
+        "sha256": "d23d7e666ef1fa6d60da93e5b6c06549d92d945a6fdc40c7b386efea30d5805c"
+      },
+      {
+        "file": "crypto/tls/tls.go",
+        "bytes": 12515,
+        "sha256": "545de7f158dc6d68f553870a72f9f2deb3a9d374834d64242464cdec69390df3"
+      },
+      {
+        "file": "encoding/json/decode.go",
+        "bytes": 36112,
+        "sha256": "2c4d202bbce137c4d75bbbb25d111f9190dba68c84da2137f733e0d3fe893e7a"
+      },
+      {
+        "file": "encoding/json/encode.go",
+        "bytes": 37130,
+        "sha256": "5d6860df35c39079513c2429edfe9336730cf47c1447a86d51069301f8530f31"
+      },
+      {
+        "file": "encoding/json/fold.go",
+        "bytes": 1089,
+        "sha256": "7ca6076cfecf7104b9a5f319bdc052e3a6d56e1a03f2b39dfa167aafc3a180fc"
+      },
+      {
+        "file": "encoding/json/indent.go",
+        "bytes": 5490,
+        "sha256": "e69f6c21c4af5ccab963f7bff9880455222c5dbf8d130fbeb66a157e9e696532"
+      },
+      {
+        "file": "encoding/json/scanner.go",
+        "bytes": 16524,
+        "sha256": "84600d4b3ce5ecdd4bd0c7711cad75fc8070f35918faa0a804fb8eeb87edc54f"
+      },
+      {
+        "file": "encoding/json/stream.go",
+        "bytes": 13221,
+        "sha256": "3cd149837b5d13e13eeee1f29d419738ad2558d4cfca40229b5bf99ac62296cd"
+      },
+      {
+        "file": "encoding/json/tables.go",
+        "bytes": 4260,
+        "sha256": "956ab0cb472d0622b1a7242362379430f7137ad6887fb8dd009b4d156d5307ee"
+      },
+      {
+        "file": "encoding/json/tags.go",
+        "bytes": 972,
+        "sha256": "02674ba6e2558244d4296f61dd844e3cbf6b42408ae1512df28522d850567bbe"
+      },
+      {
+        "file": "net/http/client.go",
+        "bytes": 34507,
+        "sha256": "ef7d85d533567cc9570cab7ef35916b966b03c05762302e5d274fdce6b0e20fc"
+      },
+      {
+        "file": "net/http/clone.go",
+        "bytes": 3117,
+        "sha256": "4b820a055b9b7a7f022c9c6d47514c2d4742fa2abede34b4f2874ce5f10c1782"
+      },
+      {
+        "file": "net/http/cookie.go",
+        "bytes": 14227,
+        "sha256": "15ceadebbf66e520470a84c2c945073f124ec662963f7141658a58d3d5828379"
+      },
+      {
+        "file": "net/http/doc.go",
+        "bytes": 3502,
+        "sha256": "ee0581d5e1283872bd1bdc65c28bbca4ade12c576d2976327b23c9792df8a712"
+      },
+      {
+        "file": "net/http/filetransport.go",
+        "bytes": 3659,
+        "sha256": "7fc42d2cf62ef5d7f4a838f1a64cd6406beeee534f6f8baa9687eba28184f2e6"
+      },
+      {
+        "file": "net/http/fs.go",
+        "bytes": 32895,
+        "sha256": "d18ccb17490c1063dd97aa11a0aeebcdfcfd08eb746cf366dd401598fefa1b4c"
+      },
+      {
+        "file": "net/http/h2_bundle.go",
+        "bytes": 372864,
+        "sha256": "a6325d1546f17dc0c66e34f92c222bec5e3e2a8d5bee059f67ea84d79f01380d"
+      },
+      {
+        "file": "net/http/h2_error.go",
+        "bytes": 812,
+        "sha256": "7649362439a44d697c7fcde73dba2fcc95056c7a157e1023cec7b4de24ca1a89"
+      },
+      {
+        "file": "net/http/header.go",
+        "bytes": 7832,
+        "sha256": "b4fa959c3db03d4ca67a487b3cbb25dcefecea45ca3dd10fef13cfc32fa6d80d"
+      },
+      {
+        "file": "net/http/http.go",
+        "bytes": 5250,
+        "sha256": "a4bbb33be83469fdbd122ce4a48c2781a13981a30fdb9b3daac6ccad1868ccff"
+      },
+      {
+        "file": "net/http/jar.go",
+        "bytes": 900,
+        "sha256": "ce89dafcd7d38806241bc002787c159a578f50097aa23e9e88e3055997356b0c"
+      },
+      {
+        "file": "net/http/mapping.go",
+        "bytes": 1719,
+        "sha256": "97be152228bf77d856b8ccf6f79cb41db42e244f63c2749905cd761ff1f943c8"
+      },
+      {
+        "file": "net/http/method.go",
+        "bytes": 517,
+        "sha256": "e0f44099c09a6245c475585347eed68c738e730008700964685a9fc7afe5963b"
+      },
+      {
+        "file": "net/http/omithttp2.go",
+        "bytes": 1954,
+        "sha256": "0aacae045bf89c9819e3620c88bd82d3d710e2a3fbf57e67e4cefebe614f8a0d"
+      },
+      {
+        "file": "net/http/pattern.go",
+        "bytes": 15661,
+        "sha256": "06a2eeb823da8ae41109df118644cbddde8a48f1b2a4692fbe26b4aa6e767c29"
+      },
+      {
+        "file": "net/http/request.go",
+        "bytes": 50649,
+        "sha256": "b132187068ae96610d49095fcd8d61611265ad590042b71f803b39ad412f025e"
+      },
+      {
+        "file": "net/http/response.go",
+        "bytes": 11362,
+        "sha256": "43833d3f5b76380a6ba2ac6972d024f9efc599fbd17ceebda34e3e79b03483ec"
+      },
+      {
+        "file": "net/http/responsecontroller.go",
+        "bytes": 4267,
+        "sha256": "e03b229fd18bae2d3e4d7d53b1affd6fbd5b87170accfd3ec86dc3e1f707bd24"
+      },
+      {
+        "file": "net/http/roundtrip.go",
+        "bytes": 988,
+        "sha256": "12cf3403f9684c3cf7dd1dbe8ac44391fe6e8b3a6c473d5de0918c0d38cfd9be"
+      },
+      {
+        "file": "net/http/roundtrip_js.go",
+        "bytes": 12084,
+        "sha256": "e0b852cce03bffc5410d89856cf803af7c90bb7d337b0587b30040f428b51d06"
+      },
+      {
+        "file": "net/http/routing_index.go",
+        "bytes": 4048,
+        "sha256": "05337a7df8a5c0e09004118326cfcaa89aa3ebf09f3aa8fb69727d8814dc3ef9"
+      },
+      {
+        "file": "net/http/routing_tree.go",
+        "bytes": 7710,
+        "sha256": "555d7ae16166612d9281b3f6f741c8e0a98f4e3a9968ddaea0b309182096879a"
+      },
+      {
+        "file": "net/http/servemux121.go",
+        "bytes": 5920,
+        "sha256": "e984a617731e8822da83f9619b2063a264c84aef9ab81bfad13665909eff4536"
+      },
+      {
+        "file": "net/http/server.go",
+        "bytes": 126479,
+        "sha256": "290020534c487169f2791f60c57c1c8d69e2ea4e67355f3883cf73253b7ffff6"
+      },
+      {
+        "file": "net/http/sniff.go",
+        "bytes": 8094,
+        "sha256": "3cf7e02214e5c8eeca9f5b12940c17723f4cd7a243c33b98386849c918644667"
+      },
+      {
+        "file": "net/http/socks_bundle.go",
+        "bytes": 13212,
+        "sha256": "7ac95fc748cae57294182ad94cf9fcd445b313094133a94e5f178bf791e9fc1d"
+      },
+      {
+        "file": "net/http/status.go",
+        "bytes": 7629,
+        "sha256": "7633ca0ca545767f3db3d8960a96ee4ecd68fb39439c88b7c03efcb3d1786297"
+      },
+      {
+        "file": "net/http/transfer.go",
+        "bytes": 31838,
+        "sha256": "7efe08b7bcf20245137e6348da4cf11bf177d44453481a63813d22b168ec219e"
+      },
+      {
+        "file": "net/http/transport.go",
+        "bytes": 93192,
+        "sha256": "de87c053e4c90297a76656d1c7eb15c757e03d959a1a943303ba22db03c93f3c"
+      },
+      {
+        "file": "net/http/transport_default_other.go",
+        "bytes": 362,
+        "sha256": "c909fea6b4308f7c164352032a694f18f87105649005a2631d29e7b5d6b5c587"
+      },
+      {
+        "file": "net/http/transport_default_wasm.go",
+        "bytes": 364,
+        "sha256": "45f994092ea1a8c432f97fc3d4673a251eabe87fd0310d2d20bbb0c3bd637993"
+      },
+      {
+        "file": "net/http/triv.go",
+        "bytes": 3299,
+        "sha256": "f2a9bdcba0803b4658d8a5a8fc4c478c0780b9de6e7f4469cd48ee4d91b60cd6"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "file": "archive/zip/reader.go",
+      "bytes": 28825,
+      "sha256": "54e6a8beb87b31f3a617ad5851fb7b31dc96aea1923cf8ba0e681818f2587a09",
+      "byte_entropy": 5.068687325514501,
+      "exact_boundary_identity": false,
+      "chunks_2016": 4,
+      "chunks_2020": 3,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.6074934952298352,
+      "content_addressed_migration_reuse": 0.3925065047701648
+    },
+    {
+      "file": "archive/zip/register.go",
+      "bytes": 3750,
+      "sha256": "79c2b8c310f04ee33c86e8c7399fd73c3d2b6d81a7c6a711a6a740654ac3ff98",
+      "byte_entropy": 4.896120357801869,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "archive/zip/struct.go",
+      "bytes": 12393,
+      "sha256": "0245d82aa77e2b9dde3ae1c75edab06f9153f801e0742dac0617f24c33d5609b",
+      "byte_entropy": 5.140375728158045,
+      "exact_boundary_identity": false,
+      "chunks_2016": 3,
+      "chunks_2020": 2,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.29782941983377714,
+      "content_addressed_migration_reuse": 0.7021705801662229
+    },
+    {
+      "file": "archive/zip/writer.go",
+      "bytes": 19809,
+      "sha256": "94503f2dbbd79693950f3d6bd5ac0edcc955e63ae4b98dd170c42dabfc017702",
+      "byte_entropy": 5.065927151943815,
+      "exact_boundary_identity": false,
+      "chunks_2016": 3,
+      "chunks_2020": 2,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "compress/flate/deflate.go",
+      "bytes": 20800,
+      "sha256": "63531314b931ecc409321566ebe87c20ecd3a1c6f3c101dab0c2622acf92d362",
+      "byte_entropy": 5.092692958003974,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "compress/flate/deflatefast.go",
+      "bytes": 9580,
+      "sha256": "61740d7f30b157947e3b8984cc5cf4c2aaff5e087ccf906886d77a1a351cf483",
+      "byte_entropy": 5.009449764578879,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "compress/flate/dict_decoder.go",
+      "bytes": 6150,
+      "sha256": "26ce1ac6f0a735d8e7fffab3f1052d2e2c6929e9fe740ce7c514a7f46552b28a",
+      "byte_entropy": 4.773251813868279,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "compress/flate/huffman_bit_writer.go",
+      "bytes": 18824,
+      "sha256": "285f8541f26bf1982e0d5ed09ab7f7db0864b50ba93ba2cbe4562c5772743963",
+      "byte_entropy": 5.139083503768701,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "compress/flate/huffman_code.go",
+      "bytes": 9911,
+      "sha256": "c7fe4f18bb12c30631c91506e458ee3b0056449806fa5de46e3c0bfe8a486197",
+      "byte_entropy": 5.008502264284247,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "compress/flate/inflate.go",
+      "bytes": 20878,
+      "sha256": "350a4d629213522544fca9e61c7aa155fdaad179285cba16ca1043b52400ed1d",
+      "byte_entropy": 5.067632185264849,
+      "exact_boundary_identity": false,
+      "chunks_2016": 3,
+      "chunks_2020": 3,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.5105853051058531,
+      "content_addressed_migration_reuse": 0.48941469489414696
+    },
+    {
+      "file": "compress/flate/token.go",
+      "bytes": 3680,
+      "sha256": "bc96536b4ca6e946a5094c3c60a085485cf6e25be1fc74914bdefcf4352f1516",
+      "byte_entropy": 4.622013043962403,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/alert.go",
+      "bytes": 4398,
+      "sha256": "95b0aab666e8a08a2c56191e0ed96a804be83b4e2d7475d4d1e7c4eb9f8b6b6c",
+      "byte_entropy": 4.476299777017928,
+      "exact_boundary_identity": false,
+      "chunks_2016": 2,
+      "chunks_2020": 1,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "crypto/tls/auth.go",
+      "bytes": 10224,
+      "sha256": "49d2191f0677a28941ac5def5b1f139087f79f69ed1b11cca54cf40e0b443d3b",
+      "byte_entropy": 5.320324286324201,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/boring.go",
+      "bytes": 393,
+      "sha256": "cd986e2d0823bdd7824ec9229351fa9b08b0102aef5f543edaa3d984af87f48f",
+      "byte_entropy": 4.904298539368829,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/cache.go",
+      "bytes": 3511,
+      "sha256": "3a9502ab6ed2c77b57a2408990dc64c47f1e0527657ef46d0abe530a8e75f52f",
+      "byte_entropy": 4.735865929733762,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/cipher_suites.go",
+      "bytes": 26149,
+      "sha256": "51b8d01a7f2794bcb1f9158415ef93974a7700bb6d8641733ae798c2c5784625",
+      "byte_entropy": 5.468184080780308,
+      "exact_boundary_identity": true,
+      "chunks_2016": 3,
+      "chunks_2020": 3,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/common.go",
+      "bytes": 60569,
+      "sha256": "8d6b3664ccd4c419d1c6d19863155c936d823263f6e7c6f17f5e6c2e9752bb1a",
+      "byte_entropy": 4.96879344756952,
+      "exact_boundary_identity": false,
+      "chunks_2016": 7,
+      "chunks_2020": 6,
+      "boundary_jaccard": 0.8333333333333334,
+      "divergent_byte_fraction": 0.05960144628440291,
+      "content_addressed_migration_reuse": 0.9403985537155971
+    },
+    {
+      "file": "crypto/tls/common_string.go",
+      "bytes": 3472,
+      "sha256": "8862ddba3892834d9f96a06cd6f7b23d3934aab5bc22df1bdf30efb5ec43c0dc",
+      "byte_entropy": 5.3901448362955255,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/conn.go",
+      "bytes": 53074,
+      "sha256": "4ddefabb4e18d29bd8d31418dab55706dba736adcb203dc6360c90f9b861f729",
+      "byte_entropy": 5.034224322731639,
+      "exact_boundary_identity": false,
+      "chunks_2016": 5,
+      "chunks_2020": 6,
+      "boundary_jaccard": 0.8,
+      "divergent_byte_fraction": 0.14747333911142932,
+      "content_addressed_migration_reuse": 0.8525266608885707
+    },
+    {
+      "file": "crypto/tls/defaults.go",
+      "bytes": 3965,
+      "sha256": "2b96af5e2e2f83ade579df5d8c57e2a06e3abc14f3fefd4ed4ed3f00b5a8379c",
+      "byte_entropy": 5.475279388542682,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/ech.go",
+      "bytes": 7597,
+      "sha256": "ed85222711e1b5cb0c3b5f03a09d5cc0d6d3739dbe71a4f2c8263eb8675e6b8f",
+      "byte_entropy": 5.170045607973789,
+      "exact_boundary_identity": false,
+      "chunks_2016": 2,
+      "chunks_2020": 1,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "crypto/tls/generate_cert.go",
+      "bytes": 4947,
+      "sha256": "c4eca7cd7a7e96de36adfbdf58d62aefade21e28e0334d0610a8c22517957dc4",
+      "byte_entropy": 5.26132941686495,
+      "exact_boundary_identity": false,
+      "chunks_2016": 1,
+      "chunks_2020": 2,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "crypto/tls/handshake_client.go",
+      "bytes": 39533,
+      "sha256": "5dead4fc051389fedd079dfce29a7b172390ba06dd5d714a5260876b40ac8582",
+      "byte_entropy": 5.056715714777875,
+      "exact_boundary_identity": false,
+      "chunks_2016": 5,
+      "chunks_2020": 6,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.5631497736068601,
+      "content_addressed_migration_reuse": 0.4368502263931399
+    },
+    {
+      "file": "crypto/tls/handshake_client_tls13.go",
+      "bytes": 28547,
+      "sha256": "285b22a615ad7273aa9cfb372cbb72f242996808156c343fb5c1a83975d47fe8",
+      "byte_entropy": 5.003100044608224,
+      "exact_boundary_identity": false,
+      "chunks_2016": 4,
+      "chunks_2020": 4,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.3376536939082916,
+      "content_addressed_migration_reuse": 0.6623463060917084
+    },
+    {
+      "file": "crypto/tls/handshake_messages.go",
+      "bytes": 53049,
+      "sha256": "ba0da6e253729d53330ecbc0a3f8c54c37eba5f69ac8ab1608d59c5ae7b4011c",
+      "byte_entropy": 5.148705233307265,
+      "exact_boundary_identity": true,
+      "chunks_2016": 5,
+      "chunks_2020": 5,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/handshake_server.go",
+      "bytes": 28276,
+      "sha256": "fa335cf6089d8bf98470511b22b38a019668af4dedea4e5ff13d107b87afb969",
+      "byte_entropy": 4.988609251391077,
+      "exact_boundary_identity": false,
+      "chunks_2016": 4,
+      "chunks_2020": 4,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "crypto/tls/handshake_server_tls13.go",
+      "bytes": 31291,
+      "sha256": "5093f79ace8688bc050c82fe46a3cc226f2a25b8a00f5dfbc308677473c518c4",
+      "byte_entropy": 5.016859470347789,
+      "exact_boundary_identity": false,
+      "chunks_2016": 4,
+      "chunks_2020": 4,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "crypto/tls/key_agreement.go",
+      "bytes": 12131,
+      "sha256": "db368fa743f1842bda6b5f3e2ec7ce0dab4270aabaf3215af4b30dd397670783",
+      "byte_entropy": 5.167957597099377,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/key_schedule.go",
+      "bytes": 6618,
+      "sha256": "f4fb53b1378d00297df593215125e8dc16163e96ca8e39447fb6c07506d936cb",
+      "byte_entropy": 5.187518288402842,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/notboring.go",
+      "bytes": 237,
+      "sha256": "976c93b45d770fc99f37c599bec5729370ec037ff87493f2844c366c55c237b5",
+      "byte_entropy": 4.817314442243192,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/prf.go",
+      "bytes": 9451,
+      "sha256": "84edb6dc1201ea2f2260c0b35dbbec374209c845525d1ae13ecb9b1ed5c3ff35",
+      "byte_entropy": 5.111418077122597,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/quic.go",
+      "bytes": 15422,
+      "sha256": "55f74139cc2fd4f24a1d7031bb6a66ec2e2ac1948b29faaec945c3e81d79d372",
+      "byte_entropy": 5.027157559711951,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "crypto/tls/ticket.go",
+      "bytes": 12857,
+      "sha256": "d23d7e666ef1fa6d60da93e5b6c06549d92d945a6fdc40c7b386efea30d5805c",
+      "byte_entropy": 5.05273525380147,
+      "exact_boundary_identity": false,
+      "chunks_2016": 2,
+      "chunks_2020": 3,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "crypto/tls/tls.go",
+      "bytes": 12515,
+      "sha256": "545de7f158dc6d68f553870a72f9f2deb3a9d374834d64242464cdec69390df3",
+      "byte_entropy": 5.056941279065917,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "encoding/json/decode.go",
+      "bytes": 36112,
+      "sha256": "2c4d202bbce137c4d75bbbb25d111f9190dba68c84da2137f733e0d3fe893e7a",
+      "byte_entropy": 5.083717247029925,
+      "exact_boundary_identity": false,
+      "chunks_2016": 4,
+      "chunks_2020": 4,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.48438192290651305,
+      "content_addressed_migration_reuse": 0.515618077093487
+    },
+    {
+      "file": "encoding/json/encode.go",
+      "bytes": 37130,
+      "sha256": "5d6860df35c39079513c2429edfe9336730cf47c1447a86d51069301f8530f31",
+      "byte_entropy": 5.109223544235141,
+      "exact_boundary_identity": false,
+      "chunks_2016": 5,
+      "chunks_2020": 5,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.46100188526797736,
+      "content_addressed_migration_reuse": 0.5389981147320226
+    },
+    {
+      "file": "encoding/json/fold.go",
+      "bytes": 1089,
+      "sha256": "7ca6076cfecf7104b9a5f319bdc052e3a6d56e1a03f2b39dfa167aafc3a180fc",
+      "byte_entropy": 5.072495207072594,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "encoding/json/indent.go",
+      "bytes": 5490,
+      "sha256": "e69f6c21c4af5ccab963f7bff9880455222c5dbf8d130fbeb66a157e9e696532",
+      "byte_entropy": 5.049699784718156,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "encoding/json/scanner.go",
+      "bytes": 16524,
+      "sha256": "84600d4b3ce5ecdd4bd0c7711cad75fc8070f35918faa0a804fb8eeb87edc54f",
+      "byte_entropy": 4.875097292255874,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "encoding/json/stream.go",
+      "bytes": 13221,
+      "sha256": "3cd149837b5d13e13eeee1f29d419738ad2558d4cfca40229b5bf99ac62296cd",
+      "byte_entropy": 4.965187089845328,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "encoding/json/tables.go",
+      "bytes": 4260,
+      "sha256": "956ab0cb472d0622b1a7242362379430f7137ad6887fb8dd009b4d156d5307ee",
+      "byte_entropy": 4.117620723540006,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "encoding/json/tags.go",
+      "bytes": 972,
+      "sha256": "02674ba6e2558244d4296f61dd844e3cbf6b42408ae1512df28522d850567bbe",
+      "byte_entropy": 4.769389338430455,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/client.go",
+      "bytes": 34507,
+      "sha256": "ef7d85d533567cc9570cab7ef35916b966b03c05762302e5d274fdce6b0e20fc",
+      "byte_entropy": 4.952491438208888,
+      "exact_boundary_identity": true,
+      "chunks_2016": 3,
+      "chunks_2020": 3,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/clone.go",
+      "bytes": 3117,
+      "sha256": "4b820a055b9b7a7f022c9c6d47514c2d4742fa2abede34b4f2874ce5f10c1782",
+      "byte_entropy": 4.982904920527278,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/cookie.go",
+      "bytes": 14227,
+      "sha256": "15ceadebbf66e520470a84c2c945073f124ec662963f7141658a58d3d5828379",
+      "byte_entropy": 5.129878183704244,
+      "exact_boundary_identity": false,
+      "chunks_2016": 3,
+      "chunks_2020": 2,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.3578407253813172,
+      "content_addressed_migration_reuse": 0.6421592746186828
+    },
+    {
+      "file": "net/http/doc.go",
+      "bytes": 3502,
+      "sha256": "ee0581d5e1283872bd1bdc65c28bbca4ade12c576d2976327b23c9792df8a712",
+      "byte_entropy": 5.1452624375218985,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/filetransport.go",
+      "bytes": 3659,
+      "sha256": "7fc42d2cf62ef5d7f4a838f1a64cd6406beeee534f6f8baa9687eba28184f2e6",
+      "byte_entropy": 4.905306572031042,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/fs.go",
+      "bytes": 32895,
+      "sha256": "d18ccb17490c1063dd97aa11a0aeebcdfcfd08eb746cf366dd401598fefa1b4c",
+      "byte_entropy": 5.014751193839633,
+      "exact_boundary_identity": false,
+      "chunks_2016": 4,
+      "chunks_2020": 3,
+      "boundary_jaccard": 0.6666666666666666,
+      "divergent_byte_fraction": 0.4272989816081471,
+      "content_addressed_migration_reuse": 0.5727010183918528
+    },
+    {
+      "file": "net/http/h2_bundle.go",
+      "bytes": 372864,
+      "sha256": "a6325d1546f17dc0c66e34f92c222bec5e3e2a8d5bee059f67ea84d79f01380d",
+      "byte_entropy": 5.265723153018262,
+      "exact_boundary_identity": false,
+      "chunks_2016": 39,
+      "chunks_2020": 42,
+      "boundary_jaccard": 0.38596491228070173,
+      "divergent_byte_fraction": 0.5727316125986955,
+      "content_addressed_migration_reuse": 0.4272683874013045
+    },
+    {
+      "file": "net/http/h2_error.go",
+      "bytes": 812,
+      "sha256": "7649362439a44d697c7fcde73dba2fcc95056c7a157e1023cec7b4de24ca1a89",
+      "byte_entropy": 5.048987968185254,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/header.go",
+      "bytes": 7832,
+      "sha256": "b4fa959c3db03d4ca67a487b3cbb25dcefecea45ca3dd10fef13cfc32fa6d80d",
+      "byte_entropy": 5.007825131626168,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/http.go",
+      "bytes": 5250,
+      "sha256": "a4bbb33be83469fdbd122ce4a48c2781a13981a30fdb9b3daac6ccad1868ccff",
+      "byte_entropy": 5.0030574185751915,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/jar.go",
+      "bytes": 900,
+      "sha256": "ce89dafcd7d38806241bc002787c159a578f50097aa23e9e88e3055997356b0c",
+      "byte_entropy": 4.75186031433458,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/mapping.go",
+      "bytes": 1719,
+      "sha256": "97be152228bf77d856b8ccf6f79cb41db42e244f63c2749905cd761ff1f943c8",
+      "byte_entropy": 4.896102748918769,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/method.go",
+      "bytes": 517,
+      "sha256": "e0f44099c09a6245c475585347eed68c738e730008700964685a9fc7afe5963b",
+      "byte_entropy": 4.980949539257734,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/omithttp2.go",
+      "bytes": 1954,
+      "sha256": "0aacae045bf89c9819e3620c88bd82d3d710e2a3fbf57e67e4cefebe614f8a0d",
+      "byte_entropy": 4.948932046553573,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/pattern.go",
+      "bytes": 15661,
+      "sha256": "06a2eeb823da8ae41109df118644cbddde8a48f1b2a4692fbe26b4aa6e767c29",
+      "byte_entropy": 4.9549285676473165,
+      "exact_boundary_identity": false,
+      "chunks_2016": 3,
+      "chunks_2020": 2,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.4638273418044825,
+      "content_addressed_migration_reuse": 0.5361726581955175
+    },
+    {
+      "file": "net/http/request.go",
+      "bytes": 50649,
+      "sha256": "b132187068ae96610d49095fcd8d61611265ad590042b71f803b39ad412f025e",
+      "byte_entropy": 5.007717148423902,
+      "exact_boundary_identity": false,
+      "chunks_2016": 6,
+      "chunks_2020": 6,
+      "boundary_jaccard": 0.42857142857142855,
+      "divergent_byte_fraction": 0.43386838831961144,
+      "content_addressed_migration_reuse": 0.5661316116803885
+    },
+    {
+      "file": "net/http/response.go",
+      "bytes": 11362,
+      "sha256": "43833d3f5b76380a6ba2ac6972d024f9efc599fbd17ceebda34e3e79b03483ec",
+      "byte_entropy": 4.95235096862706,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/responsecontroller.go",
+      "bytes": 4267,
+      "sha256": "e03b229fd18bae2d3e4d7d53b1affd6fbd5b87170accfd3ec86dc3e1f707bd24",
+      "byte_entropy": 4.840574072050447,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/roundtrip.go",
+      "bytes": 988,
+      "sha256": "12cf3403f9684c3cf7dd1dbe8ac44391fe6e8b3a6c473d5de0918c0d38cfd9be",
+      "byte_entropy": 4.877117870305718,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/roundtrip_js.go",
+      "bytes": 12084,
+      "sha256": "e0b852cce03bffc5410d89856cf803af7c90bb7d337b0587b30040f428b51d06",
+      "byte_entropy": 5.138003405377746,
+      "exact_boundary_identity": true,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/routing_index.go",
+      "bytes": 4048,
+      "sha256": "05337a7df8a5c0e09004118326cfcaa89aa3ebf09f3aa8fb69727d8814dc3ef9",
+      "byte_entropy": 4.795358391096805,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/routing_tree.go",
+      "bytes": 7710,
+      "sha256": "555d7ae16166612d9281b3f6f741c8e0a98f4e3a9968ddaea0b309182096879a",
+      "byte_entropy": 4.8118274965813645,
+      "exact_boundary_identity": false,
+      "chunks_2016": 1,
+      "chunks_2020": 2,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "net/http/servemux121.go",
+      "bytes": 5920,
+      "sha256": "e984a617731e8822da83f9619b2063a264c84aef9ab81bfad13665909eff4536",
+      "byte_entropy": 5.05452441797716,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/server.go",
+      "bytes": 126479,
+      "sha256": "290020534c487169f2791f60c57c1c8d69e2ea4e67355f3883cf73253b7ffff6",
+      "byte_entropy": 5.021645707659145,
+      "exact_boundary_identity": false,
+      "chunks_2016": 17,
+      "chunks_2020": 14,
+      "boundary_jaccard": 0.20833333333333334,
+      "divergent_byte_fraction": 0.6650432087540225,
+      "content_addressed_migration_reuse": 0.3349567912459776
+    },
+    {
+      "file": "net/http/sniff.go",
+      "bytes": 8094,
+      "sha256": "3cf7e02214e5c8eeca9f5b12940c17723f4cd7a243c33b98386849c918644667",
+      "byte_entropy": 5.431948116788731,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/socks_bundle.go",
+      "bytes": 13212,
+      "sha256": "7ac95fc748cae57294182ad94cf9fcd445b313094133a94e5f178bf791e9fc1d",
+      "byte_entropy": 5.09326706318792,
+      "exact_boundary_identity": false,
+      "chunks_2016": 2,
+      "chunks_2020": 2,
+      "boundary_jaccard": 0.0,
+      "divergent_byte_fraction": 1.0,
+      "content_addressed_migration_reuse": 0.0
+    },
+    {
+      "file": "net/http/status.go",
+      "bytes": 7629,
+      "sha256": "7633ca0ca545767f3db3d8960a96ee4ecd68fb39439c88b7c03efcb3d1786297",
+      "byte_entropy": 4.942854662139712,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/transfer.go",
+      "bytes": 31838,
+      "sha256": "7efe08b7bcf20245137e6348da4cf11bf177d44453481a63813d22b168ec219e",
+      "byte_entropy": 5.029361546524239,
+      "exact_boundary_identity": false,
+      "chunks_2016": 3,
+      "chunks_2020": 3,
+      "boundary_jaccard": 0.3333333333333333,
+      "divergent_byte_fraction": 0.43033482002638357,
+      "content_addressed_migration_reuse": 0.5696651799736164
+    },
+    {
+      "file": "net/http/transport.go",
+      "bytes": 93192,
+      "sha256": "de87c053e4c90297a76656d1c7eb15c757e03d959a1a943303ba22db03c93f3c",
+      "byte_entropy": 5.0119926538225235,
+      "exact_boundary_identity": false,
+      "chunks_2016": 10,
+      "chunks_2020": 10,
+      "boundary_jaccard": 0.5,
+      "divergent_byte_fraction": 0.3740664434715426,
+      "content_addressed_migration_reuse": 0.6259335565284574
+    },
+    {
+      "file": "net/http/transport_default_other.go",
+      "bytes": 362,
+      "sha256": "c909fea6b4308f7c164352032a694f18f87105649005a2631d29e7b5d6b5c587",
+      "byte_entropy": 4.913447023456309,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/transport_default_wasm.go",
+      "bytes": 364,
+      "sha256": "45f994092ea1a8c432f97fc3d4673a251eabe87fd0310d2d20bbb0c3bd637993",
+      "byte_entropy": 4.965500474319734,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    },
+    {
+      "file": "net/http/triv.go",
+      "bytes": 3299,
+      "sha256": "f2a9bdcba0803b4658d8a5a8fc4c478c0780b9de6e7f4469cd48ee4d91b60cd6",
+      "byte_entropy": 5.192876377763777,
+      "exact_boundary_identity": true,
+      "chunks_2016": 1,
+      "chunks_2020": 1,
+      "boundary_jaccard": 1.0,
+      "divergent_byte_fraction": 0.0,
+      "content_addressed_migration_reuse": 1.0
+    }
+  ],
+  "by_package": {
+    "archive/zip": {
+      "n_files": 4,
+      "total_bytes": 64777,
+      "exact_identity_files": 1,
+      "boundary_jaccard_median": 0.5833333333333333,
+      "boundary_jaccard_range": [
+        0.0,
+        1.0
+      ],
+      "migration_reuse_median": 0.5473385424681938,
+      "migration_reuse_range": [
+        0.0,
+        1.0
+      ]
+    },
+    "compress/flate": {
+      "n_files": 7,
+      "total_bytes": 89823,
+      "exact_identity_files": 6,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.3333333333333333,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.48941469489414696,
+        1.0
+      ]
+    },
+    "crypto/tls": {
+      "n_files": 23,
+      "total_bytes": 428226,
+      "exact_identity_files": 13,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.0,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.0,
+        1.0
+      ]
+    },
+    "encoding/json": {
+      "n_files": 8,
+      "total_bytes": 114798,
+      "exact_identity_files": 6,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.3333333333333333,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.515618077093487,
+        1.0
+      ]
+    },
+    "net/http": {
+      "n_files": 32,
+      "total_bytes": 880913,
+      "exact_identity_files": 22,
+      "boundary_jaccard_median": 1.0,
+      "boundary_jaccard_range": [
+        0.0,
+        1.0
+      ],
+      "migration_reuse_median": 1.0,
+      "migration_reuse_range": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "summary": {
+    "n_files": 74,
+    "total_bytes": 1578537,
+    "exact_identity_files": 48,
+    "boundary_jaccard_median": 1.0,
+    "boundary_jaccard_range": [
+      0.0,
+      1.0
+    ],
+    "migration_reuse_median": 1.0,
+    "migration_reuse_range": [
+      0.0,
+      1.0
+    ]
+  }
+}

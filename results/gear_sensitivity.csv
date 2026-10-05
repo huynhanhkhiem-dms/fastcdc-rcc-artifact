@@ -1,0 +1,371 @@
+gear_table,gear_table_kind,file,bytes,boundary_jaccard,divergent_byte_fraction,migration_reuse
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,archive/zip/reader.go,28825,0.6666666666666666,0.6074934952298352,0.3925065047701648
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,archive/zip/register.go,3750,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,archive/zip/struct.go,12393,0.5,0.29782941983377714,0.7021705801662229
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,archive/zip/writer.go,19809,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,compress/flate/deflate.go,20800,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,compress/flate/deflatefast.go,9580,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,compress/flate/dict_decoder.go,6150,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,compress/flate/huffman_bit_writer.go,18824,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,compress/flate/huffman_code.go,9911,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,compress/flate/inflate.go,20878,0.3333333333333333,0.5105853051058531,0.48941469489414696
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,compress/flate/token.go,3680,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/alert.go,4398,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/auth.go,10224,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/boring.go,393,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/cache.go,3511,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/cipher_suites.go,26149,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/common.go,60569,0.8333333333333334,0.05960144628440291,0.9403985537155971
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/common_string.go,3472,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/conn.go,53074,0.8,0.14747333911142932,0.8525266608885707
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/defaults.go,3965,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/ech.go,7597,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/generate_cert.go,4947,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/handshake_client.go,39533,0.5,0.5631497736068601,0.4368502263931399
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/handshake_client_tls13.go,28547,0.5,0.3376536939082916,0.6623463060917084
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/handshake_messages.go,53049,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/handshake_server.go,28276,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/handshake_server_tls13.go,31291,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/key_agreement.go,12131,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/key_schedule.go,6618,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/notboring.go,237,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/prf.go,9451,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/quic.go,15422,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/ticket.go,12857,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,crypto/tls/tls.go,12515,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,encoding/json/decode.go,36112,0.5,0.48438192290651305,0.515618077093487
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,encoding/json/encode.go,37130,0.3333333333333333,0.46100188526797736,0.5389981147320226
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,encoding/json/fold.go,1089,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,encoding/json/indent.go,5490,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,encoding/json/scanner.go,16524,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,encoding/json/stream.go,13221,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,encoding/json/tables.go,4260,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,encoding/json/tags.go,972,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/client.go,34507,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/clone.go,3117,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/cookie.go,14227,0.5,0.3578407253813172,0.6421592746186828
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/doc.go,3502,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/filetransport.go,3659,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/fs.go,32895,0.6666666666666666,0.4272989816081471,0.5727010183918528
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/h2_bundle.go,372864,0.38596491228070173,0.5727316125986955,0.4272683874013045
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/h2_error.go,812,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/header.go,7832,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/http.go,5250,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/jar.go,900,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/mapping.go,1719,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/method.go,517,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/omithttp2.go,1954,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/pattern.go,15661,0.5,0.4638273418044825,0.5361726581955175
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/request.go,50649,0.42857142857142855,0.43386838831961144,0.5661316116803885
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/response.go,11362,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/responsecontroller.go,4267,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/roundtrip.go,988,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/roundtrip_js.go,12084,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/routing_index.go,4048,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/routing_tree.go,7710,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/servemux121.go,5920,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/server.go,126479,0.20833333333333334,0.6650432087540225,0.3349567912459776
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/sniff.go,8094,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/socks_bundle.go,13212,0.0,1.0,0.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/status.go,7629,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/transfer.go,31838,0.3333333333333333,0.43033482002638357,0.5696651799736164
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/transport.go,93192,0.5,0.3740664434715426,0.6259335565284574
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/transport_default_other.go,362,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/transport_default_wasm.go,364,1.0,0.0,1.0
+rust_gearhash,Frozen rust-gearhash DEFAULT_TABLE,net/http/triv.go,3299,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,archive/zip/reader.go,28825,0.2,0.8095056374674762,0.19049436253252386
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,archive/zip/register.go,3750,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,archive/zip/struct.go,12393,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,archive/zip/writer.go,19809,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,compress/flate/deflate.go,20800,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,compress/flate/deflatefast.go,9580,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,compress/flate/dict_decoder.go,6150,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,compress/flate/huffman_bit_writer.go,18824,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,compress/flate/huffman_code.go,9911,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,compress/flate/inflate.go,20878,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,compress/flate/token.go,3680,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/alert.go,4398,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/auth.go,10224,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/boring.go,393,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/cache.go,3511,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/cipher_suites.go,26149,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/common.go,60569,0.3333333333333333,0.5732635506612294,0.42673644933877064
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/common_string.go,3472,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/conn.go,53074,0.2222222222222222,0.8324414967780834,0.16755850322191657
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/defaults.go,3965,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/ech.go,7597,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/generate_cert.go,4947,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/handshake_client.go,39533,0.75,0.3418409936002833,0.6581590063997167
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/handshake_client_tls13.go,28547,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/handshake_messages.go,53049,0.42857142857142855,0.5305849309129296,0.4694150690870704
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/handshake_server.go,28276,0.5,0.5200169755269487,0.47998302447305136
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/handshake_server_tls13.go,31291,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/key_agreement.go,12131,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/key_schedule.go,6618,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/notboring.go,237,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/prf.go,9451,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/quic.go,15422,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/ticket.go,12857,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,crypto/tls/tls.go,12515,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,encoding/json/decode.go,36112,0.4,0.6254153743907842,0.3745846256092158
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,encoding/json/encode.go,37130,0.5,0.498007002423916,0.5019929975760841
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,encoding/json/fold.go,1089,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,encoding/json/indent.go,5490,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,encoding/json/scanner.go,16524,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,encoding/json/stream.go,13221,0.5,0.8413130625520006,0.1586869374479994
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,encoding/json/tables.go,4260,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,encoding/json/tags.go,972,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/client.go,34507,0.4,0.45384994348972674,0.5461500565102733
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/clone.go,3117,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/cookie.go,14227,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/doc.go,3502,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/filetransport.go,3659,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/fs.go,32895,0.6666666666666666,0.5063687490500076,0.4936312509499924
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/h2_bundle.go,372864,0.31666666666666665,0.6375675849639547,0.36243241503604534
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/h2_error.go,812,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/header.go,7832,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/http.go,5250,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/jar.go,900,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/mapping.go,1719,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/method.go,517,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/omithttp2.go,1954,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/pattern.go,15661,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/request.go,50649,0.6,0.2881794309858043,0.7118205690141958
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/response.go,11362,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/responsecontroller.go,4267,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/roundtrip.go,988,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/roundtrip_js.go,12084,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/routing_index.go,4048,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/routing_tree.go,7710,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/servemux121.go,5920,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/server.go,126479,0.6428571428571429,0.2910601759975964,0.7089398240024035
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/sniff.go,8094,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/socks_bundle.go,13212,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/status.go,7629,0.0,1.0,0.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/transfer.go,31838,0.16666666666666666,0.6996984735222062,0.30030152647779385
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/transport.go,93192,0.42857142857142855,0.5301957249549317,0.4698042750450682
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/transport_default_other.go,362,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/transport_default_wasm.go,364,1.0,0.0,1.0
+wxi_fastcdc_c,Frozen wxiacode/FastCDC-c GEARv2 table,net/http/triv.go,3299,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,archive/zip/reader.go,28825,0.3333333333333333,0.5654813529921943,0.43451864700780574
+seed_20260925,deterministic sensitivity table,archive/zip/register.go,3750,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,archive/zip/struct.go,12393,0.5,0.9650609214879368,0.03493907851206326
+seed_20260925,deterministic sensitivity table,archive/zip/writer.go,19809,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,compress/flate/deflate.go,20800,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,compress/flate/deflatefast.go,9580,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,compress/flate/dict_decoder.go,6150,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,compress/flate/huffman_bit_writer.go,18824,0.5,0.4341266468338292,0.5658733531661708
+seed_20260925,deterministic sensitivity table,compress/flate/huffman_code.go,9911,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,compress/flate/inflate.go,20878,0.25,0.9777277517003544,0.02227224829964556
+seed_20260925,deterministic sensitivity table,compress/flate/token.go,3680,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/alert.go,4398,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/auth.go,10224,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,crypto/tls/boring.go,393,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/cache.go,3511,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/cipher_suites.go,26149,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/common.go,60569,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/common_string.go,3472,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,crypto/tls/conn.go,53074,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,crypto/tls/defaults.go,3965,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/ech.go,7597,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,crypto/tls/generate_cert.go,4947,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/handshake_client.go,39533,0.6,0.48185060582298334,0.5181493941770167
+seed_20260925,deterministic sensitivity table,crypto/tls/handshake_client_tls13.go,28547,0.6666666666666666,0.45780642449294146,0.5421935755070585
+seed_20260925,deterministic sensitivity table,crypto/tls/handshake_messages.go,53049,0.2222222222222222,0.6245546570152124,0.37544534298478766
+seed_20260925,deterministic sensitivity table,crypto/tls/handshake_server.go,28276,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/handshake_server_tls13.go,31291,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/key_agreement.go,12131,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/key_schedule.go,6618,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,crypto/tls/notboring.go,237,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/prf.go,9451,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,crypto/tls/quic.go,15422,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,crypto/tls/ticket.go,12857,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,crypto/tls/tls.go,12515,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,encoding/json/decode.go,36112,0.4,0.624695392113425,0.3753046078865751
+seed_20260925,deterministic sensitivity table,encoding/json/encode.go,37130,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,encoding/json/fold.go,1089,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,encoding/json/indent.go,5490,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,encoding/json/scanner.go,16524,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,encoding/json/stream.go,13221,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,encoding/json/tables.go,4260,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,encoding/json/tags.go,972,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/client.go,34507,0.6666666666666666,0.3523343089807865,0.6476656910192135
+seed_20260925,deterministic sensitivity table,net/http/clone.go,3117,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/cookie.go,14227,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,net/http/doc.go,3502,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/filetransport.go,3659,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/fs.go,32895,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/h2_bundle.go,372864,0.31666666666666665,0.6747366331960178,0.32526336680398216
+seed_20260925,deterministic sensitivity table,net/http/h2_error.go,812,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/header.go,7832,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/http.go,5250,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/jar.go,900,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/mapping.go,1719,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/method.go,517,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/omithttp2.go,1954,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/pattern.go,15661,0.5,0.2564331779579848,0.7435668220420152
+seed_20260925,deterministic sensitivity table,net/http/request.go,50649,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/response.go,11362,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,net/http/responsecontroller.go,4267,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/roundtrip.go,988,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/roundtrip_js.go,12084,0.5,0.8773584905660378,0.12264150943396226
+seed_20260925,deterministic sensitivity table,net/http/routing_index.go,4048,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/routing_tree.go,7710,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,net/http/servemux121.go,5920,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/server.go,126479,0.2857142857142857,0.7309909154879466,0.2690090845120534
+seed_20260925,deterministic sensitivity table,net/http/sniff.go,8094,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/socks_bundle.go,13212,0.5,0.3542991220102937,0.6457008779897063
+seed_20260925,deterministic sensitivity table,net/http/status.go,7629,0.0,1.0,0.0
+seed_20260925,deterministic sensitivity table,net/http/transfer.go,31838,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/transport.go,93192,0.5833333333333334,0.4921023263799468,0.5078976736200532
+seed_20260925,deterministic sensitivity table,net/http/transport_default_other.go,362,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/transport_default_wasm.go,364,1.0,0.0,1.0
+seed_20260925,deterministic sensitivity table,net/http/triv.go,3299,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,archive/zip/reader.go,28825,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,archive/zip/register.go,3750,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,archive/zip/struct.go,12393,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,archive/zip/writer.go,19809,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,compress/flate/deflate.go,20800,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,compress/flate/deflatefast.go,9580,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,compress/flate/dict_decoder.go,6150,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,compress/flate/huffman_bit_writer.go,18824,0.5,0.42398002549936253,0.5760199745006375
+seed_20260926,deterministic sensitivity table,compress/flate/huffman_code.go,9911,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,compress/flate/inflate.go,20878,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,compress/flate/token.go,3680,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/alert.go,4398,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/auth.go,10224,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/boring.go,393,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/cache.go,3511,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/cipher_suites.go,26149,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/common.go,60569,0.4,0.46835840116231076,0.5316415988376892
+seed_20260926,deterministic sensitivity table,crypto/tls/common_string.go,3472,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/conn.go,53074,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/defaults.go,3965,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/ech.go,7597,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,crypto/tls/generate_cert.go,4947,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/handshake_client.go,39533,0.6,0.3404244555181747,0.6595755444818253
+seed_20260926,deterministic sensitivity table,crypto/tls/handshake_client_tls13.go,28547,0.6666666666666666,0.5606893894279609,0.4393106105720391
+seed_20260926,deterministic sensitivity table,crypto/tls/handshake_messages.go,53049,0.1111111111111111,1.0,0.0
+seed_20260926,deterministic sensitivity table,crypto/tls/handshake_server.go,28276,0.2,0.7013014570660631,0.2986985429339369
+seed_20260926,deterministic sensitivity table,crypto/tls/handshake_server_tls13.go,31291,0.6666666666666666,0.2855773225528107,0.7144226774471892
+seed_20260926,deterministic sensitivity table,crypto/tls/key_agreement.go,12131,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,crypto/tls/key_schedule.go,6618,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,crypto/tls/notboring.go,237,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/prf.go,9451,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/quic.go,15422,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,crypto/tls/ticket.go,12857,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,crypto/tls/tls.go,12515,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,encoding/json/decode.go,36112,0.14285714285714285,0.7336342490031015,0.2663657509968985
+seed_20260926,deterministic sensitivity table,encoding/json/encode.go,37130,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,encoding/json/fold.go,1089,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,encoding/json/indent.go,5490,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,encoding/json/scanner.go,16524,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,encoding/json/stream.go,13221,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,encoding/json/tables.go,4260,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,encoding/json/tags.go,972,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/client.go,34507,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,net/http/clone.go,3117,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/cookie.go,14227,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/doc.go,3502,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,net/http/filetransport.go,3659,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/fs.go,32895,0.6666666666666666,0.27247302021583825,0.7275269797841617
+seed_20260926,deterministic sensitivity table,net/http/h2_bundle.go,372864,0.5,0.4034956445245451,0.5965043554754549
+seed_20260926,deterministic sensitivity table,net/http/h2_error.go,812,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/header.go,7832,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/http.go,5250,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/jar.go,900,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/mapping.go,1719,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/method.go,517,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/omithttp2.go,1954,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/pattern.go,15661,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/request.go,50649,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/response.go,11362,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,net/http/responsecontroller.go,4267,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/roundtrip.go,988,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/roundtrip_js.go,12084,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/routing_index.go,4048,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/routing_tree.go,7710,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/servemux121.go,5920,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/server.go,126479,0.3684210526315789,0.6129238845974431,0.38707611540255693
+seed_20260926,deterministic sensitivity table,net/http/sniff.go,8094,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,net/http/socks_bundle.go,13212,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/status.go,7629,0.0,1.0,0.0
+seed_20260926,deterministic sensitivity table,net/http/transfer.go,31838,0.5,0.38353539795213265,0.6164646020478673
+seed_20260926,deterministic sensitivity table,net/http/transport.go,93192,0.3076923076923077,0.711691990728818,0.28830800927118205
+seed_20260926,deterministic sensitivity table,net/http/transport_default_other.go,362,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/transport_default_wasm.go,364,1.0,0.0,1.0
+seed_20260926,deterministic sensitivity table,net/http/triv.go,3299,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,archive/zip/reader.go,28825,0.6666666666666666,0.236357328707719,0.763642671292281
+seed_20260927,deterministic sensitivity table,archive/zip/register.go,3750,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,archive/zip/struct.go,12393,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,archive/zip/writer.go,19809,0.3333333333333333,0.5731233277803018,0.4268766722196981
+seed_20260927,deterministic sensitivity table,compress/flate/deflate.go,20800,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,compress/flate/deflatefast.go,9580,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,compress/flate/dict_decoder.go,6150,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,compress/flate/huffman_bit_writer.go,18824,0.3333333333333333,0.5634296642583936,0.4365703357416065
+seed_20260927,deterministic sensitivity table,compress/flate/huffman_code.go,9911,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,compress/flate/inflate.go,20878,0.2,0.91622760800843,0.08377239199157008
+seed_20260927,deterministic sensitivity table,compress/flate/token.go,3680,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/alert.go,4398,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/auth.go,10224,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/boring.go,393,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/cache.go,3511,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/cipher_suites.go,26149,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/common.go,60569,0.3,0.7191302481467418,0.28086975185325824
+seed_20260927,deterministic sensitivity table,crypto/tls/common_string.go,3472,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/conn.go,53074,0.375,0.6751328334024193,0.32486716659758075
+seed_20260927,deterministic sensitivity table,crypto/tls/defaults.go,3965,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/ech.go,7597,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/generate_cert.go,4947,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/handshake_client.go,39533,0.16666666666666666,1.0,0.0
+seed_20260927,deterministic sensitivity table,crypto/tls/handshake_client_tls13.go,28547,0.6666666666666666,0.2578204364731846,0.7421795635268155
+seed_20260927,deterministic sensitivity table,crypto/tls/handshake_messages.go,53049,0.42857142857142855,0.4788403174423646,0.5211596825576353
+seed_20260927,deterministic sensitivity table,crypto/tls/handshake_server.go,28276,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/handshake_server_tls13.go,31291,0.5,0.7141989709501134,0.2858010290498865
+seed_20260927,deterministic sensitivity table,crypto/tls/key_agreement.go,12131,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/key_schedule.go,6618,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/notboring.go,237,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/prf.go,9451,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/quic.go,15422,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,crypto/tls/ticket.go,12857,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,crypto/tls/tls.go,12515,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,encoding/json/decode.go,36112,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,encoding/json/encode.go,37130,0.2,1.0,0.0
+seed_20260927,deterministic sensitivity table,encoding/json/fold.go,1089,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,encoding/json/indent.go,5490,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,encoding/json/scanner.go,16524,0.5,0.46308399903171144,0.5369160009682885
+seed_20260927,deterministic sensitivity table,encoding/json/stream.go,13221,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,encoding/json/tables.go,4260,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,encoding/json/tags.go,972,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/client.go,34507,0.4,0.7114208711275973,0.2885791288724027
+seed_20260927,deterministic sensitivity table,net/http/clone.go,3117,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/cookie.go,14227,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/doc.go,3502,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/filetransport.go,3659,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/fs.go,32895,0.16666666666666666,0.8002127982976136,0.19978720170238637
+seed_20260927,deterministic sensitivity table,net/http/h2_bundle.go,372864,0.5918367346938775,0.3395822605561277,0.6604177394438723
+seed_20260927,deterministic sensitivity table,net/http/h2_error.go,812,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/header.go,7832,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/http.go,5250,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/jar.go,900,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/mapping.go,1719,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/method.go,517,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/omithttp2.go,1954,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/pattern.go,15661,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,net/http/request.go,50649,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,net/http/response.go,11362,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,net/http/responsecontroller.go,4267,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,net/http/roundtrip.go,988,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/roundtrip_js.go,12084,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,net/http/routing_index.go,4048,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/routing_tree.go,7710,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/servemux121.go,5920,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/server.go,126479,0.18181818181818182,0.8423690889396659,0.15763091106033414
+seed_20260927,deterministic sensitivity table,net/http/sniff.go,8094,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,net/http/socks_bundle.go,13212,0.0,1.0,0.0
+seed_20260927,deterministic sensitivity table,net/http/status.go,7629,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/transfer.go,31838,0.25,0.5778629310886362,0.42213706891136377
+seed_20260927,deterministic sensitivity table,net/http/transport.go,93192,0.25,0.6125633101553781,0.3874366898446219
+seed_20260927,deterministic sensitivity table,net/http/transport_default_other.go,362,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/transport_default_wasm.go,364,1.0,0.0,1.0
+seed_20260927,deterministic sensitivity table,net/http/triv.go,3299,1.0,0.0,1.0
