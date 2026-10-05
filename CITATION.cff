@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "RCC 1.1 FastCDC Reproducibility Artifact"
+message: "Please cite the accompanying manuscript and this repository when using this artifact."
+type: software
+authors:
+  - family-names: "Huynh"
+    given-names: "Anh Khiem"
+    orcid: "https://orcid.org/0009-0007-7210-174X"
+year: 2026
+repository-code: "https://github.com/quangvinhtran5678-maker/-fastcdc-rcc-artifact"
